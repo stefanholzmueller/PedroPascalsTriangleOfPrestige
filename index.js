@@ -150,7 +150,7 @@ class App {
     if (val < 1000) {
       return val;
     } else {
-      return val.toExponential(3);
+      return val.toLocaleString();
     }
   }
 
