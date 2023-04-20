@@ -286,7 +286,7 @@ class App {
     this.UI.infoPlayTime.innerText = this.remainingToStr(playTime, true);
 
     this.UI.infoNext.innerText = this.remainingToStr(minRemaining, true);
-    document.title = `Pedro Pascal's Triangle of Prestige - ${this.remainingToStr(minRemaining)}`;
+    document.title = `Pedro Pascal's Pyramid of Prestige - ${this.remainingToStr(minRemaining)}`;
 
 
 
