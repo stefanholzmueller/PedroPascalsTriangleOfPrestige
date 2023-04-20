@@ -32,7 +32,7 @@ class App {
     const parent = document.getElementById('cellsContainer');
     const completeList = [];
 
-    const rowCount = 30;
+    const rowCount = 31;
 
     for (let i = 0; i < rowCount; i++) {
       const row = document.createElement('div');
